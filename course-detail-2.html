@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Bugin.education</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/progresscircle.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <button class="btn-plain call-menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="index.html" class="logo">
+        <img src="img/logo/logo.svg" alt="">
+    </a>
+</header>
+<section class="wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-3 col-md-4">
+                <div class="nav-side">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo/logo.svg" alt="">
+                    </a>
+                    <div class="profile">
+                        <div class="profile-img">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.91 17C5.503 15.452 7.658 14.5 10.023 14.5C12.365 14.5 14.497 15.433 16.089 16.952M1.975 14.025C1.365 12.811 1 11.452 1 10C1 5.026 5.026 1 10 1C14.974 1 19 5.026 19 10C19 11.45 18.637 12.81 18.023 14.023M12.1213 6.37868C13.2929 7.55025 13.2929 9.44975 12.1213 10.6213C10.9497 11.7929 9.05023 11.7929 7.87866 10.6213C6.70709 9.44975 6.70709 7.55025 7.87866 6.37868C9.05023 5.20711 10.9497 5.20711 12.1213 6.37868Z"
+                                      stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="profile-caption">
+                            <h3>Ануар Надралиев</h3>
+                            <p>Ученик</p>
+                        </div>
+                    </div>
+                    <ul class="menu">
+                        <li class="active">
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.88889 4.88889H7.82222M4.88889 8.77778H8.8M4.88889 12.6667H9.77778M17.1111 12.6667H13.6667M17.1111 8.77778H13.1111M10.0911 20.6867L13.4367 17.3411C13.9311 16.8467 14.1644 16.1478 14.0656 15.4556L12.2722 2.90778C12.1156 1.81333 11.1778 1 10.0722 1H3.22222C1.99444 1 1 1.99444 1 3.22222V14.3333C1 15.5611 1.99444 16.5556 3.22222 16.5556H13.9533M8.66667 16.5556L9.02889 19.0922C9.18444 20.1867 10.1222 21 11.2289 21H18.7778C20.0056 21 21 20.0056 21 18.7778V6.55556C21 5.32778 20.0056 4.33333 18.7778 4.33333H13.1111"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Курсы</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2222 6L10.4444 8.77778L8.77778 7.11111M6.55556 13.2222H15.4444M6.55556 16.5556H15.4444M18.7778 1H3.22222C1.99444 1 1 1.99444 1 3.22222V18.7778C1 20.0056 1.99444 21 3.22222 21H18.7778C20.0056 21 21 20.0056 21 18.7778V3.22222C21 1.99444 20.0056 1 18.7778 1Z"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>История оплаты</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.1111 1H13.2222C14.45 1 15.4444 1.99444 15.4444 3.22222M15.4444 3.22222C15.4444 1.99444 16.4389 1 17.6667 1H18.7778M15.4444 3.22222V18.7778M15.4444 18.7778C15.4444 20.0056 16.4389 21 17.6667 21H18.7778M15.4444 18.7778C15.4444 20.0056 14.45 21 13.2222 21H12.1111M12.1111 12.1111L9.88889 9.88889M12.1111 9.88889L9.88889 12.1111M7.2 12.1111L4.97778 9.88889M7.2 9.88889L4.97778 12.1111M12.1111 16.5556H3.22222C1.99444 16.5556 1 15.5611 1 14.3333V7.66667C1 6.43889 1.99444 5.44444 3.22222 5.44444H12.1111M15.4444 16.5556H18.7778C20.0056 16.5556 21 15.5611 21 14.3333V7.66667C21 6.43889 20.0056 5.44444 18.7778 5.44444H15.4444"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Сменить пароль</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.55558 3.22219H3.22223C1.99445 3.22219 1 4.21664 1 5.44442V16.5556C1 17.7834 1.99445 18.7778 3.22223 18.7778H6.55558M13.2223 9.88888V12.1111M12.59 20.9467L19.2567 19.72C20.2756 19.4956 21.0001 18.5922 21.0001 17.55V4.44997C21.0001 3.40775 20.2756 2.50441 19.2567 2.27997L12.59 1.0533C11.2034 0.746628 9.88892 1.80219 9.88892 3.2233V18.7778C9.88892 20.1978 11.2034 21.2534 12.59 20.9467Z"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Выйти с аккаунта</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="https://bgpro.kz/" target="_blank" class="bg-logo">
+                        <img src="img/logo/copyright.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-9 col-md-8">
+                <img src="img/main/bg-course.png" alt="" class="bg-course">
+                <div class="course-detail course-detail-plain">
+                    <div class="course-detail-head">
+                        <a href="courses.html" class="back-circle">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 11H1M1 11L11 1M1 11L11 21" stroke="#999999" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <div class="prof-plain">
+                            <div class="prof-plain-img">
+                                <img src="img/main/course-md.png" alt="">
+                            </div>
+                            <div class="prof-plain-caption">
+                                <ul class="course-info">
+                                    <li>ОНЛАЙН-КУРС</li>
+                                    <li>Нурлан Ахметов</li>
+                                </ul>
+                                <h1 class="title">UX-дизайнер с нуля до PRO</h1>
+                            </div>
+                            <div class="circlechart" data-percentage="50"></div>
+                        </div>
+
+                    </div>
+                    <div class="course-program">
+                        <div class="program">
+                            <div class="program-head">
+                                <div class="program-title">
+                                    <span class="program-number">1</span>
+                                    <div class="program-title-caption">
+                                        <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                        <ul class="program-info">
+                                            <li>
+                                                <svg width="23" height="18" viewBox="0 0 23 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.8135 3.25V15.25M18.8135 3.25C18.8135 2.145 17.8941 1.25 16.76 1.25H6.24204C5.10693 1.25 4.18755 2.145 4.18755 3.25M18.8135 3.25H20.4591C21.3097 3.25 22 3.922 22 4.75V13.75C22 14.578 21.3097 15.25 20.4591 15.25H18.8135M18.8135 15.25C18.8135 16.355 17.8941 17.25 16.759 17.25H6.24204C5.10693 17.25 4.18755 16.355 4.18755 15.25M4.18755 15.25V3.25M4.18755 15.25H2.54087C1.69031 15.25 1 14.578 1 13.75V4.75C1 3.922 1.69031 3.25 2.54087 3.25H4.18755M10.8883 7.086L13.7348 8.725C14.1446 8.961 14.1446 9.539 13.7348 9.775L10.8883 11.414C10.4702 11.655 9.94321 11.361 9.94321 10.889V7.611C9.94321 7.138 10.4712 6.845 10.8883 7.086Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>63 урока</span>
+                                            </li>
+                                            <li>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.394 15.5H11.9V13.285H14.392C15.004 13.285 15.5 13.781 15.5 14.393C15.501 15.005 15.005 15.5 14.394 15.5Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M11.9 13.285V11H14.113C14.744 11 15.256 11.512 15.256 12.143C15.256 12.774 14.744 13.286 14.113 13.286"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M9 9L6.75 4.5L4.5 9" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M4.89697 8.20599H8.60297" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M16.158 19H3.842C2.272 19 1 17.728 1 16.158V3.842C1 2.272 2.272 1 3.842 1H16.158C17.728 1 19 2.272 19 3.842V16.158C19 17.728 17.728 19 16.158 19Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>11 тестов</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <svg width="22" height="12" viewBox="0 0 22 12" class="arr-down" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L11 11L21 1" stroke="#999999" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="program-body">
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                        <li>
+                                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.0033 14.0515L10.4988 16.5559L8.9955 15.0526M7.66661 8.07146H6.5555C5.63549 8.07146 4.88883 8.81812 4.88883 9.73812V18.7781M14.3333 8.07146H15.4444C16.3644 8.07146 17.1111 8.81812 17.1111 9.73812V18.7781M18.0711 3.92927C21.9763 7.83452 21.9763 14.1662 18.0711 18.0714C14.1658 21.9766 7.83416 21.9766 3.92894 18.0714C0.0236878 14.1661 0.0236878 7.8345 3.92894 3.92927C7.83419 0.0240235 14.1658 0.0240235 18.0711 3.92927ZM13.1166 9.5859H8.88439C8.21105 9.5859 7.66661 9.04146 7.66661 8.36923V7.77257C7.66661 7.10034 8.21105 6.5559 8.88328 6.5559H13.1155C13.7888 6.5559 14.3333 7.10034 14.3333 7.77257V8.36812C14.3333 9.04146 13.7888 9.5859 13.1166 9.5859Z" stroke="#239C28" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="9.25" stroke="#F2994A" stroke-width="1.5"/>
+                                                <path d="M8 7V13M12 7V13" stroke="#F2994A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M15 19.0003H5C3.895 19.0003 3 18.1053 3 17.0003V9.00034C3 7.89534 3.895 7.00034 5 7.00034H15C16.105 7.00034 17 7.89534 17 9.00034V17.0003C17 18.1053 16.105 19.0003 15 19.0003Z" stroke="#999999" stroke-width="1.4655" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M14 7.00034V5.00034C14 2.79134 12.209 1.00034 10 1.00034C7.791 1.00034 6 2.79134 6 5.00034V7.00034" stroke="#999999" stroke-width="1.4031" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M9.99801 12.5004C9.72201 12.5004 9.49801 12.7244 9.50001 13.0004C9.50001 13.2764 9.72401 13.5004 10 13.5004C10.276 13.5004 10.5 13.2764 10.5 13.0004C10.5 12.7244 10.276 12.5004 9.99801 12.5004Z" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                    <span class="discount-red">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.90021 10.0998L10.0998 5.90021M5.76442 13.3965H4.13009C3.28737 13.3965 2.60354 12.7133 2.60354 11.8699V10.8676C2.60354 10.4631 2.44256 10.0746 2.15628 9.78832L1.44726 9.07929C0.850915 8.48295 0.850915 7.51705 1.44726 6.92071L2.15628 6.21168C2.44256 5.92541 2.60354 5.53765 2.60354 5.13239V4.13009C2.60354 3.28737 3.28667 2.60354 4.13009 2.60354H5.13239C5.53695 2.60354 5.92541 2.44256 6.21168 2.15628L6.92071 1.44726C7.51705 0.850915 8.48295 0.850915 9.07929 1.44726L9.78832 2.15628C10.0746 2.44256 10.4631 2.60354 10.8676 2.60354H11.8699C12.7126 2.60354 13.3965 3.28667 13.3965 4.13009V5.13239C13.3965 5.53695 13.5574 5.92541 13.8437 6.21168L14.5527 6.92071C15.1491 7.51705 15.1491 8.48295 14.5527 9.07929L13.8437 9.78832C13.5574 10.0746 13.3965 10.4631 13.3965 10.8676V11.8699C13.3965 12.7126 12.7133 13.3965 11.8699 13.3965H10.8676C10.4631 13.3965 10.0746 13.5574 9.78832 13.8437L9.07929 14.5527C8.48295 15.1491 7.51705 15.1491 6.92071 14.5527L5.76442 13.3965ZM6.07449 5.90021C5.9779 5.90021 5.89951 5.9786 5.90021 6.07519C5.90021 6.17178 5.9786 6.25018 6.07519 6.25018C6.17178 6.25018 6.25018 6.17178 6.25018 6.07519C6.25018 5.9786 6.17178 5.90021 6.07449 5.90021ZM9.92411 9.74983C9.82752 9.74983 9.74913 9.82822 9.74983 9.92481C9.74983 10.0214 9.82822 10.0998 9.92481 10.0998C10.0214 10.0998 10.0998 10.0214 10.0998 9.92481C10.0998 9.82822 10.0214 9.74983 9.92411 9.74983Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        14 990₸
+                                    </span>
+                                </div>
+                                <div class="program-item program-item-last">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14 6.99966V4.99966C14 2.79066 12.209 0.999664 10 0.999664C8.13 0.999664 6.572 2.28866 6.134 4.02266M15 18.9997H5C3.895 18.9997 3 18.1047 3 16.9997V8.99966C3 7.89466 3.895 6.99966 5 6.99966H15C16.105 6.99966 17 7.89466 17 8.99966V16.9997C17 18.1047 16.105 18.9997 15 18.9997ZM9.997 12.4997C9.722 12.4997 9.497 12.7247 9.5 12.9997C9.5 13.2747 9.725 13.4997 10 13.4997C10.275 13.4997 10.5 13.2747 10.5 12.9997C10.5 12.7247 10.275 12.4997 9.997 12.4997Z" stroke="#66B169" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-head">
+                                <div class="program-title">
+                                    <span class="program-number">1</span>
+                                    <div class="program-title-caption">
+                                        <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                        <ul class="program-info">
+                                            <li>
+                                                <svg width="23" height="18" viewBox="0 0 23 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.8135 3.25V15.25M18.8135 3.25C18.8135 2.145 17.8941 1.25 16.76 1.25H6.24204C5.10693 1.25 4.18755 2.145 4.18755 3.25M18.8135 3.25H20.4591C21.3097 3.25 22 3.922 22 4.75V13.75C22 14.578 21.3097 15.25 20.4591 15.25H18.8135M18.8135 15.25C18.8135 16.355 17.8941 17.25 16.759 17.25H6.24204C5.10693 17.25 4.18755 16.355 4.18755 15.25M4.18755 15.25V3.25M4.18755 15.25H2.54087C1.69031 15.25 1 14.578 1 13.75V4.75C1 3.922 1.69031 3.25 2.54087 3.25H4.18755M10.8883 7.086L13.7348 8.725C14.1446 8.961 14.1446 9.539 13.7348 9.775L10.8883 11.414C10.4702 11.655 9.94321 11.361 9.94321 10.889V7.611C9.94321 7.138 10.4712 6.845 10.8883 7.086Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>63 урока</span>
+                                            </li>
+                                            <li>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.394 15.5H11.9V13.285H14.392C15.004 13.285 15.5 13.781 15.5 14.393C15.501 15.005 15.005 15.5 14.394 15.5Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M11.9 13.285V11H14.113C14.744 11 15.256 11.512 15.256 12.143C15.256 12.774 14.744 13.286 14.113 13.286"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M9 9L6.75 4.5L4.5 9" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M4.89697 8.20599H8.60297" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M16.158 19H3.842C2.272 19 1 17.728 1 16.158V3.842C1 2.272 2.272 1 3.842 1H16.158C17.728 1 19 2.272 19 3.842V16.158C19 17.728 17.728 19 16.158 19Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>11 тестов</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <svg width="22" height="12" viewBox="0 0 22 12" class="arr-down" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L11 11L21 1" stroke="#999999" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="program-body">
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item program-item-last">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-head">
+                                <div class="program-title">
+                                    <span class="program-number">1</span>
+                                    <div class="program-title-caption">
+                                        <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                        <ul class="program-info">
+                                            <li>
+                                                <svg width="23" height="18" viewBox="0 0 23 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.8135 3.25V15.25M18.8135 3.25C18.8135 2.145 17.8941 1.25 16.76 1.25H6.24204C5.10693 1.25 4.18755 2.145 4.18755 3.25M18.8135 3.25H20.4591C21.3097 3.25 22 3.922 22 4.75V13.75C22 14.578 21.3097 15.25 20.4591 15.25H18.8135M18.8135 15.25C18.8135 16.355 17.8941 17.25 16.759 17.25H6.24204C5.10693 17.25 4.18755 16.355 4.18755 15.25M4.18755 15.25V3.25M4.18755 15.25H2.54087C1.69031 15.25 1 14.578 1 13.75V4.75C1 3.922 1.69031 3.25 2.54087 3.25H4.18755M10.8883 7.086L13.7348 8.725C14.1446 8.961 14.1446 9.539 13.7348 9.775L10.8883 11.414C10.4702 11.655 9.94321 11.361 9.94321 10.889V7.611C9.94321 7.138 10.4712 6.845 10.8883 7.086Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>63 урока</span>
+                                            </li>
+                                            <li>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.394 15.5H11.9V13.285H14.392C15.004 13.285 15.5 13.781 15.5 14.393C15.501 15.005 15.005 15.5 14.394 15.5Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M11.9 13.285V11H14.113C14.744 11 15.256 11.512 15.256 12.143C15.256 12.774 14.744 13.286 14.113 13.286"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M9 9L6.75 4.5L4.5 9" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M4.89697 8.20599H8.60297" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M16.158 19H3.842C2.272 19 1 17.728 1 16.158V3.842C1 2.272 2.272 1 3.842 1H16.158C17.728 1 19 2.272 19 3.842V16.158C19 17.728 17.728 19 16.158 19Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>11 тестов</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <svg width="22" height="12" viewBox="0 0 22 12" class="arr-down" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L11 11L21 1" stroke="#999999" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="program-body">
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item program-item-last">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="program">
+                            <div class="program-head">
+                                <div class="program-title">
+                                    <span class="program-number">1</span>
+                                    <div class="program-title-caption">
+                                        <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                        <ul class="program-info">
+                                            <li>
+                                                <svg width="23" height="18" viewBox="0 0 23 18" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.8135 3.25V15.25M18.8135 3.25C18.8135 2.145 17.8941 1.25 16.76 1.25H6.24204C5.10693 1.25 4.18755 2.145 4.18755 3.25M18.8135 3.25H20.4591C21.3097 3.25 22 3.922 22 4.75V13.75C22 14.578 21.3097 15.25 20.4591 15.25H18.8135M18.8135 15.25C18.8135 16.355 17.8941 17.25 16.759 17.25H6.24204C5.10693 17.25 4.18755 16.355 4.18755 15.25M4.18755 15.25V3.25M4.18755 15.25H2.54087C1.69031 15.25 1 14.578 1 13.75V4.75C1 3.922 1.69031 3.25 2.54087 3.25H4.18755M10.8883 7.086L13.7348 8.725C14.1446 8.961 14.1446 9.539 13.7348 9.775L10.8883 11.414C10.4702 11.655 9.94321 11.361 9.94321 10.889V7.611C9.94321 7.138 10.4712 6.845 10.8883 7.086Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>63 урока</span>
+                                            </li>
+                                            <li>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.394 15.5H11.9V13.285H14.392C15.004 13.285 15.5 13.781 15.5 14.393C15.501 15.005 15.005 15.5 14.394 15.5Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M11.9 13.285V11H14.113C14.744 11 15.256 11.512 15.256 12.143C15.256 12.774 14.744 13.286 14.113 13.286"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                    <path d="M9 9L6.75 4.5L4.5 9" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M4.89697 8.20599H8.60297" stroke="#999999"
+                                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M16.158 19H3.842C2.272 19 1 17.728 1 16.158V3.842C1 2.272 2.272 1 3.842 1H16.158C17.728 1 19 2.272 19 3.842V16.158C19 17.728 17.728 19 16.158 19Z"
+                                                          stroke="#999999" stroke-linecap="round"
+                                                          stroke-linejoin="round"/>
+                                                </svg>
+                                                <span>11 тестов</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <svg width="22" height="12" viewBox="0 0 22 12" class="arr-down" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L11 11L21 1" stroke="#999999" stroke-width="1.5"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="program-body">
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="program-item program-item-last">
+                                    <span class="program-number">1.1</span>
+                                    <h3>Профессия дизайнера в эпоху цифровых перемен</h3>
+                                    <ul class="program-info">
+                                        <li>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.71791 5.98533V10.6363L13.3739 12.8653M6.55691 1.68733C11.1479 -0.214672 16.4109 1.96633 18.3129 6.55733C20.2149 11.1483 18.0339 16.4113 13.4429 18.3133C8.85191 20.2153 3.58891 18.0343 1.68691 13.4433C-0.214091 8.85233 1.96591 3.58933 6.55691 1.68733Z"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>10 мин</span>
+                                        </li>
+                                        <li>
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.983 14.0004V7.00037C3.983 5.88837 4.888 4.98737 6 4.99237C7.106 4.99637 8 5.89437 8 7.00037V15.5004C8 17.4334 6.433 19.0004 4.5 19.0004C2.567 19.0004 1 17.4334 1 15.5004V15.0004M1 15.0504V6.00037C1 3.23937 3.239 1.00037 6 1.00037C8.761 1.00037 11 3.23937 11 6.00037V13.0004"
+                                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                      stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>1 файл</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="js/libs.min.js"></script>
+<script src="js/progresscircle.js"></script>
+
+<script type="text/javascript">
+    $('.course-program .program').on('click', function () {
+//        $('.program').removeClass('program-active');
+        if ($(this).hasClass('program-active')) {
+            $(this).removeClass('program-active')
+        }
+        else {
+            $('.program').removeClass('program-active');
+            $(this).addClass('program-active');
+        }
+//        $(this).toggleClass('program-active');
+        var next = $(this).find('.program-head').next();
+        $('.program .program-body').not(next).slideUp(400);
+        next.slideToggle(400);
+    });
+
+    $(function(){
+        $('.circlechart').circlechart();
+    });
+</script>
+<script src="js/common.js"></script>
+</body>
+</html>

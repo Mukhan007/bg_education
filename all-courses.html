@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Bugin.education</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <button class="btn-plain call-menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="index.html" class="logo">
+        <img src="img/logo/logo.svg" alt="">
+    </a>
+</header>
+<section class="wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-3 col-md-4">
+                <div class="nav-side">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo/logo.svg" alt="">
+                    </a>
+                    <div class="profile">
+                        <div class="profile-img">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.91 17C5.503 15.452 7.658 14.5 10.023 14.5C12.365 14.5 14.497 15.433 16.089 16.952M1.975 14.025C1.365 12.811 1 11.452 1 10C1 5.026 5.026 1 10 1C14.974 1 19 5.026 19 10C19 11.45 18.637 12.81 18.023 14.023M12.1213 6.37868C13.2929 7.55025 13.2929 9.44975 12.1213 10.6213C10.9497 11.7929 9.05023 11.7929 7.87866 10.6213C6.70709 9.44975 6.70709 7.55025 7.87866 6.37868C9.05023 5.20711 10.9497 5.20711 12.1213 6.37868Z" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="profile-caption">
+                            <h3>Ануар Надралиев</h3>
+                            <a href="profile-edit.html">Редактировать</a>
+                        </div>
+                    </div>
+                    <ul class="menu">
+                        <li class="active">
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.88889 4.88889H7.82222M4.88889 8.77778H8.8M4.88889 12.6667H9.77778M17.1111 12.6667H13.6667M17.1111 8.77778H13.1111M10.0911 20.6867L13.4367 17.3411C13.9311 16.8467 14.1644 16.1478 14.0656 15.4556L12.2722 2.90778C12.1156 1.81333 11.1778 1 10.0722 1H3.22222C1.99444 1 1 1.99444 1 3.22222V14.3333C1 15.5611 1.99444 16.5556 3.22222 16.5556H13.9533M8.66667 16.5556L9.02889 19.0922C9.18444 20.1867 10.1222 21 11.2289 21H18.7778C20.0056 21 21 20.0056 21 18.7778V6.55556C21 5.32778 20.0056 4.33333 18.7778 4.33333H13.1111"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Мои курсы</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2222 6L10.4444 8.77778L8.77778 7.11111M6.55556 13.2222H15.4444M6.55556 16.5556H15.4444M18.7778 1H3.22222C1.99444 1 1 1.99444 1 3.22222V18.7778C1 20.0056 1.99444 21 3.22222 21H18.7778C20.0056 21 21 20.0056 21 18.7778V3.22222C21 1.99444 20.0056 1 18.7778 1Z"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Оплата</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 12.9189C1.90556 12.9189 2.77444 12.5589 3.41444 11.9189L5.25111 10.0822C5.89111 9.44222 6.76 9.08222 7.66556 9.08222C8.57111 9.08222 9.44 9.44222 10.08 10.0822L11.9167 11.9189C12.5567 12.5589 13.4256 12.9189 14.3311 12.9189C15.2367 12.9189 16.1056 12.5589 16.7456 11.9189L18.5822 10.0822C19.2222 9.44222 20.0911 9.08222 20.9967 9.08222M17.4444 21H4.55556C2.59222 21 1 19.4078 1 17.4444V4.55556C1 2.59222 2.59222 1 4.55556 1H17.4444C19.4078 1 21 2.59222 21 4.55556V17.4444C21 19.4078 19.4078 21 17.4444 21Z" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Аналитика</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.77778 12.3033V17.3889L11 16.2778L13.2222 17.3889V12.3033M17.6667 21H4.33333C2.49222 21 1 19.5078 1 17.6667V4.33333C1 2.49222 2.49222 1 4.33333 1H17.6667C19.5078 1 21 2.49222 21 4.33333V17.6667C21 19.5078 19.5078 21 17.6667 21ZM15.1667 8.77778C15.1667 11.079 13.3012 12.9444 11 12.9444C8.69881 12.9444 6.83333 11.079 6.83333 8.77778C6.83333 6.47659 8.69881 4.61111 11 4.61111C13.3012 4.61111 15.1667 6.47659 15.1667 8.77778Z" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Рейтинг</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.55558 3.22219H3.22223C1.99445 3.22219 1 4.21664 1 5.44442V16.5556C1 17.7834 1.99445 18.7778 3.22223 18.7778H6.55558M13.2223 9.88888V12.1111M12.59 20.9467L19.2567 19.72C20.2756 19.4956 21.0001 18.5922 21.0001 17.55V4.44997C21.0001 3.40775 20.2756 2.50441 19.2567 2.27997L12.59 1.0533C11.2034 0.746628 9.88892 1.80219 9.88892 3.2233V18.7778C9.88892 20.1978 11.2034 21.2534 12.59 20.9467Z"
+                                          stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Выйти с аккаунта</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="https://bgpro.kz/" target="_blank" class="bg-logo">
+                        <img src="img/logo/copyright.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-9 col-md-8">
+                <div class="all-courses">
+                    <div class="all-courses-head">
+                        <h1>Все курсы</h1>
+                    </div>
+                    <table class="table-responsive-stack table-course" id="tableOne">
+                        <tbody>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="col-lg-5">
+                                Learn VueJs
+                                <span>9 900₸</span>
+                            </td>
+                            <td class="col-lg-2">
+                                19
+                                <span>покупок</span>
+                            </td>
+                            <td class="col-lg-3">
+                                <ul class="rate-list">
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  fill="#66B169" stroke="#66B169" stroke-width="1.5"
+                                                  stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 13.5603L3.82578 16L4.90044 10.6L1 6.64L6.49244 5.95971L9 1L11.5076 5.95971L17 6.64L13.0996 10.6L14.1742 16L9 13.5603Z"
+                                                  stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <span>49 отзывов</span>
+                            </td>
+                            <td class="col-lg-2">
+                                188 100 ₸
+                                <span>доход</span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="js/libs.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        // inspired by http://jsfiddle.net/arunpjohny/564Lxosz/1/
+        $('.table-responsive-stack').find("th").each(function (i) {
+
+            $('.table-responsive-stack td:nth-child(' + (i + 1) + ')').prepend('<span class="table-responsive-stack-thead">' + $(this).text() + ':</span> ');
+            $('.table-responsive-stack-thead').hide();
+        });
+
+
+//        $( '.table-responsive-stack' ).each(function() {
+//            var thCount = $(this).find("th").length;
+//            var rowGrow = 100 / thCount + '%';
+//            //console.log(rowGrow);
+//            $(this).find("th, td").css('flex-basis', rowGrow);
+//        });
+
+
+        function flexTable() {
+            if ($(window).width() < 992) {
+
+                $(".table-responsive-stack").each(function (i) {
+                    $(this).find(".table-responsive-stack-thead").show();
+                    $(this).find('thead').hide();
+                });
+
+
+                // window is less than 768px
+            } else {
+
+
+                $(".table-responsive-stack").each(function (i) {
+                    $(this).find(".table-responsive-stack-thead").hide();
+                    $(this).find('thead').show();
+                });
+
+
+            }
+// flextable
+        }
+
+        flexTable();
+
+        window.onresize = function (event) {
+            flexTable();
+        };
+
+// document ready
+    });
+</script>
+<script src="js/common.js"></script>
+</body>
+</html>

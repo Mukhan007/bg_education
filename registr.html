@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Bugin.education</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <button class="btn-plain call-menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="index.html" class="logo">
+        <img src="img/logo/logo.svg" alt="">
+    </a>
+</header>
+<section class="wrapper test-result wrapper-registr">
+    <div class="wrapper-head">
+        <a href="index.html" class="logo">
+            <img src="img/logo/logo.svg" alt="">
+        </a>
+    </div>
+    <div class="container">
+        <div class="collapse-block collapse-md">
+            <div class="password-block review-block">
+                <h1>Регистрация</h1>
+                <div class="form-half">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                </div>
+                <div class="form-half">
+                    <input type="text" placeholder="Номер телефона" class="phone-mask">
+                    <input type="text" placeholder="E-mail адрес">
+                </div>
+                <div class="form-half">
+                    <select class="select-md">
+                        <option value="#">Город</option>
+                        <option value="#">Город 1</option>
+                        <option value="#">Город 2</option>
+                    </select>
+                    <input type="text" placeholder="Дата рождения" class="datePicker">
+                </div>
+                <div class="form-half">
+                    <input type="password" placeholder="Придумайте пароль">
+                    <input type="password" placeholder="Повторите пароль">
+                </div>
+                <div class="btn-box">
+                    <a href="login.html" class="btn-plain btn-grey">У меня уже есть аккаунт</a>
+                    <button class="btn-plain btn-green-rounded">Зарегистрироваться</button>
+                </div>
+            </div>
+            <div class="collapse-block-1"></div>
+            <div class="collapse-block-2"></div>
+        </div>
+    </div>
+    <a href="index.html" class="bg-logo">
+        <img src="img/logo/copyright.svg" alt="">
+    </a>
+</section>
+<script src="js/libs.min.js"></script>
+<script src="js/jquery.datetimepicker.full.min.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script type="text/javascript">
+    $('.phone-mask').inputmask({"mask": "+7(999) 999-99-99"});
+    jQuery('.datePicker').datetimepicker({
+        timepicker: false,
+        format: 'd.m.Y'
+    });
+    jQuery.datetimepicker.setLocale('ru');
+</script>
+<script src="js/common.js"></script>
+</body>
+</html>
